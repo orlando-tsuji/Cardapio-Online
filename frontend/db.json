@@ -1,0 +1,3135 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "nome": "Pizzas Salgadas"
+    },
+    {
+      "id": 2,
+      "nome": "Pizzas Doces"
+    },
+    {
+      "id": 3,
+      "nome": "Hambúrgueres"
+    },
+    {
+      "id": 4,
+      "nome": "Porções"
+    },
+    {
+      "id": 5,
+      "nome": "Bebidas"
+    },
+    {
+      "id": 6,
+      "nome": "Sobremesas"
+    }
+  ],
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Pizza Margherita",
+      "descricao": "Delicioso(a) margherita preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 1,
+          "nome": "Pizzas Salgadas"
+        }
+      ],
+      "preco": 76.97,
+      "precoPromocional": 65.42,
+      "imagem": "https://picsum.photos/600/600?random=1",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 37,
+      "avaliacao": 4.1,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Pizza Calabresa",
+      "descricao": "Delicioso(a) calabresa preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 1,
+          "nome": "Pizzas Salgadas"
+        }
+      ],
+      "preco": 50.12,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=2",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 43,
+      "avaliacao": 4,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Pizza Pepperoni",
+      "descricao": "Delicioso(a) pepperoni preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 1,
+          "nome": "Pizzas Salgadas"
+        }
+      ],
+      "preco": 49.68,
+      "precoPromocional": 42.23,
+      "imagem": "https://picsum.photos/600/600?random=3",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 36,
+      "avaliacao": 4.7,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "Pizza Frango com Catupiry",
+      "descricao": "Delicioso(a) frango com catupiry preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 1,
+          "nome": "Pizzas Salgadas"
+        }
+      ],
+      "preco": 80.07,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=4",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 38,
+      "avaliacao": 4.8,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 5,
+      "nome": "Pizza Portuguesa",
+      "descricao": "Delicioso(a) portuguesa preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 1,
+          "nome": "Pizzas Salgadas"
+        }
+      ],
+      "preco": 45.32,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=5",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 40,
+      "avaliacao": 4.3,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 6,
+      "nome": "Pizza Quatro Queijos",
+      "descricao": "Delicioso(a) quatro queijos preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 1,
+          "nome": "Pizzas Salgadas"
+        }
+      ],
+      "preco": 55.77,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=6",
+      "destaque": true,
+      "disponivel": true,
+      "tempoPreparo": 42,
+      "avaliacao": 4.1,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 7,
+      "nome": "Pizza Napolitana",
+      "descricao": "Delicioso(a) napolitana preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 1,
+          "nome": "Pizzas Salgadas"
+        }
+      ],
+      "preco": 87.37,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=7",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 44,
+      "avaliacao": 4.5,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 8,
+      "nome": "Pizza Atum",
+      "descricao": "Delicioso(a) atum preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 1,
+          "nome": "Pizzas Salgadas"
+        }
+      ],
+      "preco": 93.66,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=8",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 41,
+      "avaliacao": 4.6,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 9,
+      "nome": "Pizza Bacon",
+      "descricao": "Delicioso(a) bacon preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 1,
+          "nome": "Pizzas Salgadas"
+        }
+      ],
+      "preco": 80.23,
+      "precoPromocional": 68.2,
+      "imagem": "https://picsum.photos/600/600?random=9",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 39,
+      "avaliacao": 5,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 10,
+      "nome": "Pizza Milho",
+      "descricao": "Delicioso(a) milho preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 1,
+          "nome": "Pizzas Salgadas"
+        }
+      ],
+      "preco": 87.77,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=10",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 44,
+      "avaliacao": 4.6,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 11,
+      "nome": "Pizza Brócolis",
+      "descricao": "Delicioso(a) brócolis preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 1,
+          "nome": "Pizzas Salgadas"
+        }
+      ],
+      "preco": 63.24,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=11",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 38,
+      "avaliacao": 4.7,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 12,
+      "nome": "Pizza Palmito",
+      "descricao": "Delicioso(a) palmito preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 1,
+          "nome": "Pizzas Salgadas"
+        }
+      ],
+      "preco": 79.18,
+      "precoPromocional": 67.3,
+      "imagem": "https://picsum.photos/600/600?random=12",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 37,
+      "avaliacao": 4.2,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 13,
+      "nome": "Pizza Lombo Canadense",
+      "descricao": "Delicioso(a) lombo canadense preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 1,
+          "nome": "Pizzas Salgadas"
+        }
+      ],
+      "preco": 63.97,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=13",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 37,
+      "avaliacao": 4.7,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 14,
+      "nome": "Pizza Mexicana",
+      "descricao": "Delicioso(a) mexicana preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 1,
+          "nome": "Pizzas Salgadas"
+        }
+      ],
+      "preco": 87.14,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=14",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 31,
+      "avaliacao": 4.8,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 15,
+      "nome": "Pizza Moda da Casa",
+      "descricao": "Delicioso(a) moda da casa preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 1,
+          "nome": "Pizzas Salgadas"
+        }
+      ],
+      "preco": 65.06,
+      "precoPromocional": 55.3,
+      "imagem": "https://picsum.photos/600/600?random=15",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 40,
+      "avaliacao": 4.2,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 16,
+      "nome": "Pizza Parma",
+      "descricao": "Delicioso(a) parma preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 1,
+          "nome": "Pizzas Salgadas"
+        }
+      ],
+      "preco": 69.96,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=16",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 34,
+      "avaliacao": 4.3,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 17,
+      "nome": "Pizza Rúcula",
+      "descricao": "Delicioso(a) rúcula preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 1,
+          "nome": "Pizzas Salgadas"
+        }
+      ],
+      "preco": 57.33,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=17",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 43,
+      "avaliacao": 4.9,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 18,
+      "nome": "Pizza Costela",
+      "descricao": "Delicioso(a) costela preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 1,
+          "nome": "Pizzas Salgadas"
+        }
+      ],
+      "preco": 64.97,
+      "precoPromocional": 55.22,
+      "imagem": "https://picsum.photos/600/600?random=18",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 45,
+      "avaliacao": 4.1,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 19,
+      "nome": "Pizza Alho Poró",
+      "descricao": "Delicioso(a) alho poró preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 1,
+          "nome": "Pizzas Salgadas"
+        }
+      ],
+      "preco": 47.36,
+      "precoPromocional": 40.26,
+      "imagem": "https://picsum.photos/600/600?random=19",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 43,
+      "avaliacao": 4.6,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 20,
+      "nome": "Pizza Camarão",
+      "descricao": "Delicioso(a) camarão preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 1,
+          "nome": "Pizzas Salgadas"
+        }
+      ],
+      "preco": 64.24,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=20",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 38,
+      "avaliacao": 5,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 21,
+      "nome": "Pizza Toscana",
+      "descricao": "Delicioso(a) toscana preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 1,
+          "nome": "Pizzas Salgadas"
+        }
+      ],
+      "preco": 88.04,
+      "precoPromocional": 74.83,
+      "imagem": "https://picsum.photos/600/600?random=21",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 38,
+      "avaliacao": 4.8,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 22,
+      "nome": "Pizza Carbonara",
+      "descricao": "Delicioso(a) carbonara preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 1,
+          "nome": "Pizzas Salgadas"
+        }
+      ],
+      "preco": 62.01,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=22",
+      "destaque": true,
+      "disponivel": true,
+      "tempoPreparo": 30,
+      "avaliacao": 5,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 23,
+      "nome": "Pizza Aliche",
+      "descricao": "Delicioso(a) aliche preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 1,
+          "nome": "Pizzas Salgadas"
+        }
+      ],
+      "preco": 88.79,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=23",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 35,
+      "avaliacao": 4.5,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 24,
+      "nome": "Pizza Vegetariana",
+      "descricao": "Delicioso(a) vegetariana preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 1,
+          "nome": "Pizzas Salgadas"
+        }
+      ],
+      "preco": 50.32,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=24",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 36,
+      "avaliacao": 4.2,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 25,
+      "nome": "Pizza Caprese",
+      "descricao": "Delicioso(a) caprese preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 1,
+          "nome": "Pizzas Salgadas"
+        }
+      ],
+      "preco": 83.13,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=25",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 30,
+      "avaliacao": 4.6,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 26,
+      "nome": "Pizza Carne Seca",
+      "descricao": "Delicioso(a) carne seca preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 1,
+          "nome": "Pizzas Salgadas"
+        }
+      ],
+      "preco": 69.43,
+      "precoPromocional": 59.02,
+      "imagem": "https://picsum.photos/600/600?random=26",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 39,
+      "avaliacao": 4.2,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 27,
+      "nome": "Pizza Cheddar",
+      "descricao": "Delicioso(a) cheddar preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 1,
+          "nome": "Pizzas Salgadas"
+        }
+      ],
+      "preco": 57.04,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=27",
+      "destaque": true,
+      "disponivel": true,
+      "tempoPreparo": 45,
+      "avaliacao": 4.8,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 28,
+      "nome": "Pizza Escarola",
+      "descricao": "Delicioso(a) escarola preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 1,
+          "nome": "Pizzas Salgadas"
+        }
+      ],
+      "preco": 93.9,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=28",
+      "destaque": true,
+      "disponivel": true,
+      "tempoPreparo": 45,
+      "avaliacao": 4.9,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 29,
+      "nome": "Pizza Baiana",
+      "descricao": "Delicioso(a) baiana preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 1,
+          "nome": "Pizzas Salgadas"
+        }
+      ],
+      "preco": 53.26,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=29",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 36,
+      "avaliacao": 4.9,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 30,
+      "nome": "Pizza Provolone",
+      "descricao": "Delicioso(a) provolone preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 1,
+          "nome": "Pizzas Salgadas"
+        }
+      ],
+      "preco": 82.76,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=30",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 42,
+      "avaliacao": 5,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 31,
+      "nome": "Pizza Salame",
+      "descricao": "Delicioso(a) salame preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 1,
+          "nome": "Pizzas Salgadas"
+        }
+      ],
+      "preco": 77.49,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=31",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 33,
+      "avaliacao": 4.2,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 32,
+      "nome": "Pizza Mussarela",
+      "descricao": "Delicioso(a) mussarela preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 1,
+          "nome": "Pizzas Salgadas"
+        }
+      ],
+      "preco": 48.2,
+      "precoPromocional": 40.97,
+      "imagem": "https://picsum.photos/600/600?random=32",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 37,
+      "avaliacao": 4,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 33,
+      "nome": "Pizza Tomate Seco",
+      "descricao": "Delicioso(a) tomate seco preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 1,
+          "nome": "Pizzas Salgadas"
+        }
+      ],
+      "preco": 80.39,
+      "precoPromocional": 68.33,
+      "imagem": "https://picsum.photos/600/600?random=33",
+      "destaque": true,
+      "disponivel": true,
+      "tempoPreparo": 31,
+      "avaliacao": 4.9,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 34,
+      "nome": "Pizza Nordestina",
+      "descricao": "Delicioso(a) nordestina preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 1,
+          "nome": "Pizzas Salgadas"
+        }
+      ],
+      "preco": 48.54,
+      "precoPromocional": 41.26,
+      "imagem": "https://picsum.photos/600/600?random=34",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 36,
+      "avaliacao": 4.5,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 35,
+      "nome": "Pizza Especial",
+      "descricao": "Delicioso(a) especial preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 1,
+          "nome": "Pizzas Salgadas"
+        }
+      ],
+      "preco": 81.17,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=35",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 37,
+      "avaliacao": 4.8,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 36,
+      "nome": "Pizza Chocolate",
+      "descricao": "Delicioso(a) chocolate preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 2,
+          "nome": "Pizzas Doces"
+        }
+      ],
+      "preco": 81.91,
+      "precoPromocional": 69.62,
+      "imagem": "https://picsum.photos/600/600?random=36",
+      "destaque": true,
+      "disponivel": true,
+      "tempoPreparo": 38,
+      "avaliacao": 4.4,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 37,
+      "nome": "Pizza Prestígio",
+      "descricao": "Delicioso(a) prestígio preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 2,
+          "nome": "Pizzas Doces"
+        }
+      ],
+      "preco": 65.27,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=37",
+      "destaque": true,
+      "disponivel": true,
+      "tempoPreparo": 28,
+      "avaliacao": 4.1,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 38,
+      "nome": "Pizza Brigadeiro",
+      "descricao": "Delicioso(a) brigadeiro preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 2,
+          "nome": "Pizzas Doces"
+        }
+      ],
+      "preco": 78.58,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=38",
+      "destaque": true,
+      "disponivel": true,
+      "tempoPreparo": 31,
+      "avaliacao": 4.2,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 39,
+      "nome": "Pizza Romeu e Julieta",
+      "descricao": "Delicioso(a) romeu e julieta preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 2,
+          "nome": "Pizzas Doces"
+        }
+      ],
+      "preco": 66.84,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=39",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 32,
+      "avaliacao": 4.9,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 40,
+      "nome": "Pizza Banana com Canela",
+      "descricao": "Delicioso(a) banana com canela preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 2,
+          "nome": "Pizzas Doces"
+        }
+      ],
+      "preco": 51.17,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=40",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 28,
+      "avaliacao": 4.1,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 41,
+      "nome": "Pizza Nutella",
+      "descricao": "Delicioso(a) nutella preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 2,
+          "nome": "Pizzas Doces"
+        }
+      ],
+      "preco": 89.97,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=41",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 32,
+      "avaliacao": 4.2,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 42,
+      "nome": "Pizza Morango",
+      "descricao": "Delicioso(a) morango preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 2,
+          "nome": "Pizzas Doces"
+        }
+      ],
+      "preco": 68.4,
+      "precoPromocional": 58.14,
+      "imagem": "https://picsum.photos/600/600?random=42",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 26,
+      "avaliacao": 4.2,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 43,
+      "nome": "Pizza Ovomaltine",
+      "descricao": "Delicioso(a) ovomaltine preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 2,
+          "nome": "Pizzas Doces"
+        }
+      ],
+      "preco": 48.09,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=43",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 39,
+      "avaliacao": 4.3,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 44,
+      "nome": "Pizza Doce de Leite",
+      "descricao": "Delicioso(a) doce de leite preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 2,
+          "nome": "Pizzas Doces"
+        }
+      ],
+      "preco": 77.26,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=44",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 40,
+      "avaliacao": 4.2,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 45,
+      "nome": "Pizza Paçoca",
+      "descricao": "Delicioso(a) paçoca preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 2,
+          "nome": "Pizzas Doces"
+        }
+      ],
+      "preco": 60.46,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=45",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 26,
+      "avaliacao": 4.7,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 46,
+      "nome": "Pizza Churros",
+      "descricao": "Delicioso(a) churros preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 2,
+          "nome": "Pizzas Doces"
+        }
+      ],
+      "preco": 50.4,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=46",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 30,
+      "avaliacao": 4.1,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 47,
+      "nome": "Pizza M&M's",
+      "descricao": "Delicioso(a) m&m's preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 2,
+          "nome": "Pizzas Doces"
+        }
+      ],
+      "preco": 69.33,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=47",
+      "destaque": true,
+      "disponivel": true,
+      "tempoPreparo": 27,
+      "avaliacao": 4.7,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 48,
+      "nome": "Pizza KitKat",
+      "descricao": "Delicioso(a) kitkat preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 2,
+          "nome": "Pizzas Doces"
+        }
+      ],
+      "preco": 57.88,
+      "precoPromocional": 49.2,
+      "imagem": "https://picsum.photos/600/600?random=48",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 32,
+      "avaliacao": 4.6,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 49,
+      "nome": "Pizza Ferrero",
+      "descricao": "Delicioso(a) ferrero preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 2,
+          "nome": "Pizzas Doces"
+        }
+      ],
+      "preco": 49.67,
+      "precoPromocional": 42.22,
+      "imagem": "https://picsum.photos/600/600?random=49",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 35,
+      "avaliacao": 4.9,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 50,
+      "nome": "Pizza Leite Ninho",
+      "descricao": "Delicioso(a) leite ninho preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 2,
+          "nome": "Pizzas Doces"
+        }
+      ],
+      "preco": 56.58,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=50",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 37,
+      "avaliacao": 4.1,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 51,
+      "nome": "Pizza Oreo",
+      "descricao": "Delicioso(a) oreo preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 2,
+          "nome": "Pizzas Doces"
+        }
+      ],
+      "preco": 75.11,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=51",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 27,
+      "avaliacao": 4,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 52,
+      "nome": "Pizza Beijinho",
+      "descricao": "Delicioso(a) beijinho preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 2,
+          "nome": "Pizzas Doces"
+        }
+      ],
+      "preco": 74.09,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=52",
+      "destaque": true,
+      "disponivel": true,
+      "tempoPreparo": 31,
+      "avaliacao": 4.5,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 53,
+      "nome": "Pizza Abacaxi",
+      "descricao": "Delicioso(a) abacaxi preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 2,
+          "nome": "Pizzas Doces"
+        }
+      ],
+      "preco": 53.56,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=53",
+      "destaque": true,
+      "disponivel": true,
+      "tempoPreparo": 32,
+      "avaliacao": 4.4,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 54,
+      "nome": "Pizza Coco",
+      "descricao": "Delicioso(a) coco preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 2,
+          "nome": "Pizzas Doces"
+        }
+      ],
+      "preco": 54.63,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=54",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 25,
+      "avaliacao": 4.7,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 55,
+      "nome": "Pizza Sensação",
+      "descricao": "Delicioso(a) sensação preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 2,
+          "nome": "Pizzas Doces"
+        }
+      ],
+      "preco": 71.29,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=55",
+      "destaque": true,
+      "disponivel": true,
+      "tempoPreparo": 29,
+      "avaliacao": 4.3,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 56,
+      "nome": "Hambúrguer Clássico",
+      "descricao": "Delicioso(a) clássico preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 3,
+          "nome": "Hambúrgueres"
+        }
+      ],
+      "preco": 52.02,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=56",
+      "destaque": true,
+      "disponivel": true,
+      "tempoPreparo": 24,
+      "avaliacao": 4.6,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 57,
+      "nome": "Hambúrguer Cheddar Bacon",
+      "descricao": "Delicioso(a) cheddar bacon preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 3,
+          "nome": "Hambúrgueres"
+        }
+      ],
+      "preco": 47.38,
+      "precoPromocional": 40.27,
+      "imagem": "https://picsum.photos/600/600?random=57",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 23,
+      "avaliacao": 4.5,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 58,
+      "nome": "Hambúrguer Duplo",
+      "descricao": "Delicioso(a) duplo preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 3,
+          "nome": "Hambúrgueres"
+        }
+      ],
+      "preco": 34.78,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=58",
+      "destaque": true,
+      "disponivel": true,
+      "tempoPreparo": 28,
+      "avaliacao": 4.8,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 59,
+      "nome": "Hambúrguer Costela",
+      "descricao": "Delicioso(a) costela preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 3,
+          "nome": "Hambúrgueres"
+        }
+      ],
+      "preco": 29.19,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=59",
+      "destaque": true,
+      "disponivel": true,
+      "tempoPreparo": 23,
+      "avaliacao": 4.2,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 60,
+      "nome": "Hambúrguer Smash",
+      "descricao": "Delicioso(a) smash preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 3,
+          "nome": "Hambúrgueres"
+        }
+      ],
+      "preco": 39.93,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=60",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 18,
+      "avaliacao": 4.1,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 61,
+      "nome": "Hambúrguer BBQ",
+      "descricao": "Delicioso(a) bbq preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 3,
+          "nome": "Hambúrgueres"
+        }
+      ],
+      "preco": 51.84,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=61",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 26,
+      "avaliacao": 4.6,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 62,
+      "nome": "Hambúrguer Onion",
+      "descricao": "Delicioso(a) onion preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 3,
+          "nome": "Hambúrgueres"
+        }
+      ],
+      "preco": 32,
+      "precoPromocional": 27.2,
+      "imagem": "https://picsum.photos/600/600?random=62",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 16,
+      "avaliacao": 4.9,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 63,
+      "nome": "Hambúrguer Frango Crispy",
+      "descricao": "Delicioso(a) frango crispy preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 3,
+          "nome": "Hambúrgueres"
+        }
+      ],
+      "preco": 33.67,
+      "precoPromocional": 28.62,
+      "imagem": "https://picsum.photos/600/600?random=63",
+      "destaque": true,
+      "disponivel": true,
+      "tempoPreparo": 28,
+      "avaliacao": 5,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 64,
+      "nome": "Hambúrguer Vegetariano",
+      "descricao": "Delicioso(a) vegetariano preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 3,
+          "nome": "Hambúrgueres"
+        }
+      ],
+      "preco": 48.24,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=64",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 20,
+      "avaliacao": 5,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 65,
+      "nome": "Hambúrguer Picante",
+      "descricao": "Delicioso(a) picante preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 3,
+          "nome": "Hambúrgueres"
+        }
+      ],
+      "preco": 49.89,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=65",
+      "destaque": true,
+      "disponivel": true,
+      "tempoPreparo": 25,
+      "avaliacao": 4.8,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 66,
+      "nome": "Hambúrguer Egg",
+      "descricao": "Delicioso(a) egg preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 3,
+          "nome": "Hambúrgueres"
+        }
+      ],
+      "preco": 39.12,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=66",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 22,
+      "avaliacao": 4.3,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 67,
+      "nome": "Hambúrguer Parmegiana",
+      "descricao": "Delicioso(a) parmegiana preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 3,
+          "nome": "Hambúrgueres"
+        }
+      ],
+      "preco": 49.26,
+      "precoPromocional": 41.87,
+      "imagem": "https://picsum.photos/600/600?random=67",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 30,
+      "avaliacao": 4.2,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 68,
+      "nome": "Hambúrguer Picanha",
+      "descricao": "Delicioso(a) picanha preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 3,
+          "nome": "Hambúrgueres"
+        }
+      ],
+      "preco": 50.05,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=68",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 22,
+      "avaliacao": 4.2,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 69,
+      "nome": "Hambúrguer Bacon Supremo",
+      "descricao": "Delicioso(a) bacon supremo preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 3,
+          "nome": "Hambúrgueres"
+        }
+      ],
+      "preco": 45.82,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=69",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 17,
+      "avaliacao": 5,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 70,
+      "nome": "Hambúrguer Casa",
+      "descricao": "Delicioso(a) casa preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 3,
+          "nome": "Hambúrgueres"
+        }
+      ],
+      "preco": 35.54,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=70",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 25,
+      "avaliacao": 4.9,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 71,
+      "nome": "Hambúrguer Australiano",
+      "descricao": "Delicioso(a) australiano preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 3,
+          "nome": "Hambúrgueres"
+        }
+      ],
+      "preco": 31.11,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=71",
+      "destaque": true,
+      "disponivel": true,
+      "tempoPreparo": 23,
+      "avaliacao": 4,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 72,
+      "nome": "Hambúrguer Gourmet",
+      "descricao": "Delicioso(a) gourmet preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 3,
+          "nome": "Hambúrgueres"
+        }
+      ],
+      "preco": 44.11,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=72",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 28,
+      "avaliacao": 4.6,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 73,
+      "nome": "Hambúrguer Pulled Pork",
+      "descricao": "Delicioso(a) pulled pork preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 3,
+          "nome": "Hambúrgueres"
+        }
+      ],
+      "preco": 41.81,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=73",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 23,
+      "avaliacao": 4,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 74,
+      "nome": "Hambúrguer Catupiry",
+      "descricao": "Delicioso(a) catupiry preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 3,
+          "nome": "Hambúrgueres"
+        }
+      ],
+      "preco": 39.77,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=74",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 21,
+      "avaliacao": 4.4,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 75,
+      "nome": "Hambúrguer Monster",
+      "descricao": "Delicioso(a) monster preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 3,
+          "nome": "Hambúrgueres"
+        }
+      ],
+      "preco": 29.89,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=75",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 25,
+      "avaliacao": 4.7,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 76,
+      "nome": "Batata Frita",
+      "descricao": "Delicioso(a) batata frita preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 4,
+          "nome": "Porções"
+        }
+      ],
+      "preco": 27.36,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=76",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 26,
+      "avaliacao": 4.3,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 77,
+      "nome": "Batata com Cheddar",
+      "descricao": "Delicioso(a) batata com cheddar preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 4,
+          "nome": "Porções"
+        }
+      ],
+      "preco": 51.98,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=77",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 25,
+      "avaliacao": 4.7,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 78,
+      "nome": "Batata Rústica",
+      "descricao": "Delicioso(a) batata rústica preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 4,
+          "nome": "Porções"
+        }
+      ],
+      "preco": 60.82,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=78",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 13,
+      "avaliacao": 4.3,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 79,
+      "nome": "Onion Rings",
+      "descricao": "Delicioso(a) onion rings preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 4,
+          "nome": "Porções"
+        }
+      ],
+      "preco": 31.04,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=79",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 23,
+      "avaliacao": 4.5,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 80,
+      "nome": "Frango à Passarinho",
+      "descricao": "Delicioso(a) frango à passarinho preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 4,
+          "nome": "Porções"
+        }
+      ],
+      "preco": 41.01,
+      "precoPromocional": 34.86,
+      "imagem": "https://picsum.photos/600/600?random=80",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 18,
+      "avaliacao": 4.7,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 81,
+      "nome": "Isca de Frango",
+      "descricao": "Delicioso(a) isca de frango preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 4,
+          "nome": "Porções"
+        }
+      ],
+      "preco": 34.2,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=81",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 15,
+      "avaliacao": 4.8,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 82,
+      "nome": "Mandioca Frita",
+      "descricao": "Delicioso(a) mandioca frita preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 4,
+          "nome": "Porções"
+        }
+      ],
+      "preco": 54.3,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=82",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 19,
+      "avaliacao": 4.1,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 83,
+      "nome": "Polenta Frita",
+      "descricao": "Delicioso(a) polenta frita preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 4,
+          "nome": "Porções"
+        }
+      ],
+      "preco": 23.99,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=83",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 15,
+      "avaliacao": 4.5,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 84,
+      "nome": "Calabresa Acebolada",
+      "descricao": "Delicioso(a) calabresa acebolada preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 4,
+          "nome": "Porções"
+        }
+      ],
+      "preco": 60.1,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=84",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 25,
+      "avaliacao": 4.5,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 85,
+      "nome": "Mini Pastéis",
+      "descricao": "Delicioso(a) mini pastéis preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 4,
+          "nome": "Porções"
+        }
+      ],
+      "preco": 32.49,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=85",
+      "destaque": true,
+      "disponivel": true,
+      "tempoPreparo": 16,
+      "avaliacao": 4.8,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 86,
+      "nome": "Bolinho de Queijo",
+      "descricao": "Delicioso(a) bolinho de queijo preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 4,
+          "nome": "Porções"
+        }
+      ],
+      "preco": 31.41,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=86",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 27,
+      "avaliacao": 4.1,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 87,
+      "nome": "Bolinho de Bacalhau",
+      "descricao": "Delicioso(a) bolinho de bacalhau preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 4,
+          "nome": "Porções"
+        }
+      ],
+      "preco": 32.72,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=87",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 27,
+      "avaliacao": 4.7,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 88,
+      "nome": "Tilápia",
+      "descricao": "Delicioso(a) tilápia preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 4,
+          "nome": "Porções"
+        }
+      ],
+      "preco": 64.48,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=88",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 27,
+      "avaliacao": 4.6,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 89,
+      "nome": "Torresmo",
+      "descricao": "Delicioso(a) torresmo preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 4,
+          "nome": "Porções"
+        }
+      ],
+      "preco": 52.93,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=89",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 27,
+      "avaliacao": 4.9,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 90,
+      "nome": "Nachos",
+      "descricao": "Delicioso(a) nachos preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 4,
+          "nome": "Porções"
+        }
+      ],
+      "preco": 53.98,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=90",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 20,
+      "avaliacao": 4.8,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 91,
+      "nome": "Coxinha",
+      "descricao": "Delicioso(a) coxinha preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 4,
+          "nome": "Porções"
+        }
+      ],
+      "preco": 33.92,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=91",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 20,
+      "avaliacao": 4.3,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 92,
+      "nome": "Kibe",
+      "descricao": "Delicioso(a) kibe preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 4,
+          "nome": "Porções"
+        }
+      ],
+      "preco": 25.33,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=92",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 23,
+      "avaliacao": 4.9,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 93,
+      "nome": "Queijo Coalho",
+      "descricao": "Delicioso(a) queijo coalho preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 4,
+          "nome": "Porções"
+        }
+      ],
+      "preco": 25.46,
+      "precoPromocional": 21.64,
+      "imagem": "https://picsum.photos/600/600?random=93",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 17,
+      "avaliacao": 4.7,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 94,
+      "nome": "Anéis de Lula",
+      "descricao": "Delicioso(a) anéis de lula preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 4,
+          "nome": "Porções"
+        }
+      ],
+      "preco": 24.76,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=94",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 26,
+      "avaliacao": 4.1,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 95,
+      "nome": "Mix da Casa",
+      "descricao": "Delicioso(a) mix da casa preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 4,
+          "nome": "Porções"
+        }
+      ],
+      "preco": 57.81,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=95",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 13,
+      "avaliacao": 4.9,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 96,
+      "nome": "Coca-Cola Lata",
+      "descricao": "Delicioso(a) coca-cola lata preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 5,
+          "nome": "Bebidas"
+        }
+      ],
+      "preco": 22.61,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=96",
+      "destaque": true,
+      "disponivel": true,
+      "tempoPreparo": 11,
+      "avaliacao": 4.3,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 97,
+      "nome": "Coca-Cola Zero",
+      "descricao": "Delicioso(a) coca-cola zero preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 5,
+          "nome": "Bebidas"
+        }
+      ],
+      "preco": 13.97,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=97",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 7,
+      "avaliacao": 4.5,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 98,
+      "nome": "Guaraná",
+      "descricao": "Delicioso(a) guaraná preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 5,
+          "nome": "Bebidas"
+        }
+      ],
+      "preco": 11.28,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=98",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 12,
+      "avaliacao": 4.7,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 99,
+      "nome": "Fanta Laranja",
+      "descricao": "Delicioso(a) fanta laranja preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 5,
+          "nome": "Bebidas"
+        }
+      ],
+      "preco": 24.33,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=99",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 0,
+      "avaliacao": 4.9,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 100,
+      "nome": "Sprite",
+      "descricao": "Delicioso(a) sprite preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 5,
+          "nome": "Bebidas"
+        }
+      ],
+      "preco": 18.61,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=100",
+      "destaque": true,
+      "disponivel": true,
+      "tempoPreparo": 13,
+      "avaliacao": 4.1,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 101,
+      "nome": "Suco de Laranja",
+      "descricao": "Delicioso(a) suco de laranja preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 5,
+          "nome": "Bebidas"
+        }
+      ],
+      "preco": 15.62,
+      "precoPromocional": 13.28,
+      "imagem": "https://picsum.photos/600/600?random=101",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 6,
+      "avaliacao": 4.5,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 102,
+      "nome": "Suco de Uva",
+      "descricao": "Delicioso(a) suco de uva preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 5,
+          "nome": "Bebidas"
+        }
+      ],
+      "preco": 12.76,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=102",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 13,
+      "avaliacao": 4.3,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 103,
+      "nome": "Suco de Maracujá",
+      "descricao": "Delicioso(a) suco de maracujá preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 5,
+          "nome": "Bebidas"
+        }
+      ],
+      "preco": 6.88,
+      "precoPromocional": 5.85,
+      "imagem": "https://picsum.photos/600/600?random=103",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 11,
+      "avaliacao": 4.2,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 104,
+      "nome": "Água",
+      "descricao": "Delicioso(a) água preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 5,
+          "nome": "Bebidas"
+        }
+      ],
+      "preco": 6.58,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=104",
+      "destaque": true,
+      "disponivel": true,
+      "tempoPreparo": 0,
+      "avaliacao": 4.9,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 105,
+      "nome": "Água com Gás",
+      "descricao": "Delicioso(a) água com gás preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 5,
+          "nome": "Bebidas"
+        }
+      ],
+      "preco": 9.59,
+      "precoPromocional": 8.15,
+      "imagem": "https://picsum.photos/600/600?random=105",
+      "destaque": true,
+      "disponivel": true,
+      "tempoPreparo": 4,
+      "avaliacao": 4.5,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 106,
+      "nome": "H2OH!",
+      "descricao": "Delicioso(a) h2oh! preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 5,
+          "nome": "Bebidas"
+        }
+      ],
+      "preco": 7.63,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=106",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 8,
+      "avaliacao": 4.8,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 107,
+      "nome": "Chá Gelado",
+      "descricao": "Delicioso(a) chá gelado preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 5,
+          "nome": "Bebidas"
+        }
+      ],
+      "preco": 8.86,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=107",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 3,
+      "avaliacao": 4.8,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 108,
+      "nome": "Energético",
+      "descricao": "Delicioso(a) energético preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 5,
+          "nome": "Bebidas"
+        }
+      ],
+      "preco": 8.77,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=108",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 9,
+      "avaliacao": 4.6,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 109,
+      "nome": "Red Bull",
+      "descricao": "Delicioso(a) red bull preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 5,
+          "nome": "Bebidas"
+        }
+      ],
+      "preco": 25.88,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=109",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 6,
+      "avaliacao": 4.1,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 110,
+      "nome": "Monster",
+      "descricao": "Delicioso(a) monster preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 5,
+          "nome": "Bebidas"
+        }
+      ],
+      "preco": 20.88,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=110",
+      "destaque": true,
+      "disponivel": true,
+      "tempoPreparo": 9,
+      "avaliacao": 4.9,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 111,
+      "nome": "Milk-shake Chocolate",
+      "descricao": "Delicioso(a) milk-shake chocolate preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 5,
+          "nome": "Bebidas"
+        }
+      ],
+      "preco": 18.81,
+      "precoPromocional": 15.99,
+      "imagem": "https://picsum.photos/600/600?random=111",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 1,
+      "avaliacao": 4.3,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 112,
+      "nome": "Milk-shake Morango",
+      "descricao": "Delicioso(a) milk-shake morango preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 5,
+          "nome": "Bebidas"
+        }
+      ],
+      "preco": 14.85,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=112",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 10,
+      "avaliacao": 4,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 113,
+      "nome": "Milk-shake Baunilha",
+      "descricao": "Delicioso(a) milk-shake baunilha preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 5,
+          "nome": "Bebidas"
+        }
+      ],
+      "preco": 14.66,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=113",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 11,
+      "avaliacao": 4.6,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 114,
+      "nome": "Cerveja sem Álcool",
+      "descricao": "Delicioso(a) cerveja sem álcool preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 5,
+          "nome": "Bebidas"
+        }
+      ],
+      "preco": 24.06,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=114",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 8,
+      "avaliacao": 4.6,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 115,
+      "nome": "Refrigerante 2L",
+      "descricao": "Delicioso(a) refrigerante 2l preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 5,
+          "nome": "Bebidas"
+        }
+      ],
+      "preco": 26.15,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=115",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 8,
+      "avaliacao": 4.3,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 116,
+      "nome": "Café",
+      "descricao": "Delicioso(a) café preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 5,
+          "nome": "Bebidas"
+        }
+      ],
+      "preco": 10.65,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=116",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 14,
+      "avaliacao": 4.2,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 117,
+      "nome": "Capuccino",
+      "descricao": "Delicioso(a) capuccino preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 5,
+          "nome": "Bebidas"
+        }
+      ],
+      "preco": 15.69,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=117",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 0,
+      "avaliacao": 4.5,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 118,
+      "nome": "Água de Coco",
+      "descricao": "Delicioso(a) água de coco preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 5,
+          "nome": "Bebidas"
+        }
+      ],
+      "preco": 12.48,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=118",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 8,
+      "avaliacao": 4.3,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 119,
+      "nome": "Tônica",
+      "descricao": "Delicioso(a) tônica preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 5,
+          "nome": "Bebidas"
+        }
+      ],
+      "preco": 25.25,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=119",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 0,
+      "avaliacao": 4.5,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 120,
+      "nome": "Limonada",
+      "descricao": "Delicioso(a) limonada preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 5,
+          "nome": "Bebidas"
+        }
+      ],
+      "preco": 9.39,
+      "precoPromocional": 7.98,
+      "imagem": "https://picsum.photos/600/600?random=120",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 7,
+      "avaliacao": 4.7,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 121,
+      "nome": "Pudim",
+      "descricao": "Delicioso(a) pudim preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 6,
+          "nome": "Sobremesas"
+        }
+      ],
+      "preco": 26.86,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=121",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 7,
+      "avaliacao": 4.3,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 122,
+      "nome": "Petit Gateau",
+      "descricao": "Delicioso(a) petit gateau preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 6,
+          "nome": "Sobremesas"
+        }
+      ],
+      "preco": 21.3,
+      "precoPromocional": 18.11,
+      "imagem": "https://picsum.photos/600/600?random=122",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 16,
+      "avaliacao": 4.5,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 123,
+      "nome": "Brownie",
+      "descricao": "Delicioso(a) brownie preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 6,
+          "nome": "Sobremesas"
+        }
+      ],
+      "preco": 24.21,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=123",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 15,
+      "avaliacao": 4.4,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 124,
+      "nome": "Cheesecake",
+      "descricao": "Delicioso(a) cheesecake preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 6,
+          "nome": "Sobremesas"
+        }
+      ],
+      "preco": 22.44,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=124",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 11,
+      "avaliacao": 4.3,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 125,
+      "nome": "Torta Holandesa",
+      "descricao": "Delicioso(a) torta holandesa preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 6,
+          "nome": "Sobremesas"
+        }
+      ],
+      "preco": 29.09,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=125",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 11,
+      "avaliacao": 4.2,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 126,
+      "nome": "Mousse de Chocolate",
+      "descricao": "Delicioso(a) mousse de chocolate preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 6,
+          "nome": "Sobremesas"
+        }
+      ],
+      "preco": 23.14,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=126",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 14,
+      "avaliacao": 5,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 127,
+      "nome": "Mousse de Maracujá",
+      "descricao": "Delicioso(a) mousse de maracujá preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 6,
+          "nome": "Sobremesas"
+        }
+      ],
+      "preco": 31.15,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=127",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 14,
+      "avaliacao": 4,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 128,
+      "nome": "Sorvete",
+      "descricao": "Delicioso(a) sorvete preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 6,
+          "nome": "Sobremesas"
+        }
+      ],
+      "preco": 24.29,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=128",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 14,
+      "avaliacao": 4.7,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 129,
+      "nome": "Banoffee",
+      "descricao": "Delicioso(a) banoffee preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 6,
+          "nome": "Sobremesas"
+        }
+      ],
+      "preco": 14.9,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=129",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 5,
+      "avaliacao": 4.6,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 130,
+      "nome": "Churros",
+      "descricao": "Delicioso(a) churros preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 6,
+          "nome": "Sobremesas"
+        }
+      ],
+      "preco": 22.8,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=130",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 6,
+      "avaliacao": 4.3,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 131,
+      "nome": "Açaí",
+      "descricao": "Delicioso(a) açaí preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 6,
+          "nome": "Sobremesas"
+        }
+      ],
+      "preco": 31.82,
+      "precoPromocional": 27.05,
+      "imagem": "https://picsum.photos/600/600?random=131",
+      "destaque": true,
+      "disponivel": true,
+      "tempoPreparo": 20,
+      "avaliacao": 4.1,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 132,
+      "nome": "Pavê",
+      "descricao": "Delicioso(a) pavê preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 6,
+          "nome": "Sobremesas"
+        }
+      ],
+      "preco": 26.48,
+      "precoPromocional": 22.51,
+      "imagem": "https://picsum.photos/600/600?random=132",
+      "destaque": true,
+      "disponivel": true,
+      "tempoPreparo": 14,
+      "avaliacao": 4.1,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 133,
+      "nome": "Tiramisù",
+      "descricao": "Delicioso(a) tiramisù preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 6,
+          "nome": "Sobremesas"
+        }
+      ],
+      "preco": 17.71,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=133",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 12,
+      "avaliacao": 4.8,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 134,
+      "nome": "Cookie",
+      "descricao": "Delicioso(a) cookie preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 6,
+          "nome": "Sobremesas"
+        }
+      ],
+      "preco": 20.75,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=134",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 18,
+      "avaliacao": 4.3,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    },
+    {
+      "id": 135,
+      "nome": "Palha Italiana",
+      "descricao": "Delicioso(a) palha italiana preparado(a) com ingredientes selecionados.",
+      "categoriaId": [
+        {
+          "id": 6,
+          "nome": "Sobremesas"
+        }
+      ],
+      "preco": 26.28,
+      "precoPromocional": null,
+      "imagem": "https://picsum.photos/600/600?random=135",
+      "destaque": false,
+      "disponivel": true,
+      "tempoPreparo": 11,
+      "avaliacao": 4.6,
+      "ingredientes": [
+        "Ingredientes selecionados",
+        "Tempero especial",
+        "Muito sabor"
+      ]
+    }
+  ]
+}
