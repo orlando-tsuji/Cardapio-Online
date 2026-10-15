@@ -19,13 +19,10 @@ namespace backend.Models.Configurations
                 .HasMaxLength(150)
                 .IsRequired();
 
-            builder.Property(x => x.DescontoId)
-                .IsRequired();
-
             builder.HasOne(x => x.Desconto)
                 .WithMany()
                 .HasForeignKey(x => x.DescontoId)
-                .OnDelete(DeleteBehavior.SetNull);
+                .OnDelete(DeleteBehavior.SetNull); // FK opcional: ao excluir o registro relacionado, o campo fica nulo
         }
     }
 }

@@ -33,13 +33,15 @@ namespace backend.Data
                         .HasColumnType("bigint");
 
                     b.Property<string>("Nome")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(150)
+                        .HasColumnType("nvarchar(150)");
 
                     b.HasKey("Id");
 
                     b.HasIndex("DescontoId");
 
-                    b.ToTable("Categorias");
+                    b.ToTable("Categorias", (string)null);
                 });
 
             modelBuilder.Entity("backend.Models.Desconto", b =>
@@ -51,14 +53,16 @@ namespace backend.Data
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
 
                     b.Property<string>("Nome")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(150)
+                        .HasColumnType("nvarchar(150)");
 
                     b.Property<decimal>("Percentual")
                         .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Descontos");
+                    b.ToTable("Descontos", (string)null);
                 });
 
             modelBuilder.Entity("backend.Models.Produto", b =>
@@ -76,7 +80,9 @@ namespace backend.Data
                         .HasColumnType("bigint");
 
                     b.Property<string>("Descricao")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
 
                     b.Property<bool>("Destaque")
                         .HasColumnType("bit");
@@ -88,10 +94,13 @@ namespace backend.Data
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Ingredientes")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
 
                     b.Property<string>("Nome")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(150)
+                        .HasColumnType("nvarchar(150)");
 
                     b.Property<decimal>("Preco")
                         .HasColumnType("decimal(18,2)");
@@ -100,14 +109,15 @@ namespace backend.Data
 
                     b.HasIndex("CategoriaId");
 
-                    b.ToTable("Produtos");
+                    b.ToTable("Produtos", (string)null);
                 });
 
             modelBuilder.Entity("backend.Models.Categoria", b =>
                 {
                     b.HasOne("backend.Models.Desconto", "Desconto")
                         .WithMany()
-                        .HasForeignKey("DescontoId");
+                        .HasForeignKey("DescontoId")
+                        .OnDelete(DeleteBehavior.SetNull);
 
                     b.Navigation("Desconto");
                 });
@@ -116,7 +126,8 @@ namespace backend.Data
                 {
                     b.HasOne("backend.Models.Categoria", "Categoria")
                         .WithMany()
-                        .HasForeignKey("CategoriaId");
+                        .HasForeignKey("CategoriaId")
+                        .OnDelete(DeleteBehavior.SetNull);
 
                     b.Navigation("Categoria");
                 });

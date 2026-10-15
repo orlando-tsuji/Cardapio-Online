@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Threading.Tasks;
 using backend.Data;
 using backend.Models;
@@ -18,58 +19,52 @@ namespace backend.Repositories
             _context = context;
         }
 
+        // Projeção reutilizada pelas consultas: o EF Core traduz para SQL,
+        // incluindo o cálculo do preço com desconto da categoria.
+        private static readonly Expression<Func<Produto, GetProdutosResponseDTO>> ProjecaoProduto = p => new GetProdutosResponseDTO
+        {
+            Id = p.Id,
+            Nome = p.Nome,
+            PrecoComDesconto = p.Categoria.DescontoId != null ? p.Preco * (1 - p.Categoria.Desconto.Percentual / 100) : p.Preco,
+            Preco = p.Preco,
+            Descricao = p.Descricao,
+            Imagem = p.Imagem,
+            Destaque = p.Destaque,
+            Disponivel = p.Disponivel,
+            Avaliacao = p.Avaliacao,
+            Ingredientes = p.Ingredientes,
+
+            Categoria = p.Categoria != null ? new CategoriaResponseDTO
+            {
+                Id = p.Categoria.Id,
+                Nome = p.Categoria.Nome,
+            } : null
+        };
+
         public async Task<IEnumerable<GetProdutosResponseDTO>> ObterProdutosAsync()
         {
-            var produtos = await _context.Produtos.Select(p => new GetProdutosResponseDTO
-            {
-                Id = p.Id,
-                Nome = p.Nome,
-                PrecoComDesconto = p.Categoria.DescontoId != null ? p.Preco * (1 - p.Categoria.Desconto.Percentual / 100) : p.Preco,
-                Preco = p.Preco,
-                Descricao = p.Descricao,
-                Imagem = p.Imagem,
-                Destaque = p.Destaque,
-                Disponivel = p.Disponivel,
-                Avaliacao = p.Avaliacao,
-                Ingredientes = p.Ingredientes,
+            return await _context.Produtos
+                .AsNoTracking()
+                .Select(ProjecaoProduto)
+                .ToListAsync();
+        }
 
-                Categoria = p.Categoria != null ? new CategoriaResponseDTO
-                {
-                    Id = p.Categoria.Id,
-                    Nome = p.Categoria.Nome,
-                } : null
-
-            }).ToListAsync();
-
-            return produtos;
+        public async Task<GetProdutosResponseDTO> ObterProdutoPorIdAsync(long id)
+        {
+            return await _context.Produtos
+                .AsNoTracking()
+                .Where(p => p.Id == id)
+                .Select(ProjecaoProduto)
+                .FirstOrDefaultAsync();
         }
 
         public async Task<GetProdutosResponseDTO> ObterProdutosByNomeAsync(string nome)
         {
-            var produto = await _context.Produtos
+            return await _context.Produtos
+                .AsNoTracking()
                 .Where(p => p.Nome == nome)
-                .Select(p => new GetProdutosResponseDTO
-                {
-                    Id = p.Id,
-                    Nome = p.Nome,
-                    PrecoComDesconto = p.Categoria.DescontoId != null ? p.Preco * (1 - p.Categoria.Desconto.Percentual / 100) : p.Preco,
-                    Preco = p.Preco,
-                    Descricao = p.Descricao,
-                    Imagem = p.Imagem,
-                    Destaque = p.Destaque,
-                    Disponivel = p.Disponivel,
-                    Avaliacao = p.Avaliacao,
-                    Ingredientes = p.Ingredientes,
-
-                    Categoria = p.Categoria != null ? new CategoriaResponseDTO
-                    {
-                        Id = p.Categoria.Id,
-                        Nome = p.Categoria.Nome,
-                    } : null
-
-                }).FirstOrDefaultAsync();
-
-                return produto;
+                .Select(ProjecaoProduto)
+                .FirstOrDefaultAsync();
         }
 
         public async Task<ProdutoResponseDTO> CriarProduto(CreateProdutoRequestDTO request)

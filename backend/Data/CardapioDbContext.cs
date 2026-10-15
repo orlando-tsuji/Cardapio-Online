@@ -17,5 +17,13 @@ namespace backend.Data
         public DbSet<Produto> Produtos { get; set; }
         public DbSet<Categoria> Categorias { get; set; }
         public DbSet<Desconto> Descontos { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            // Registra todas as classes IEntityTypeConfiguration<T> do projeto (Models/Configurations).
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(CardapioDbContext).Assembly);
+        }
     }
 }

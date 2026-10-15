@@ -10,6 +10,7 @@ namespace backend.Repositories
     public interface IProdutoRepository
     {
         Task<IEnumerable<GetProdutosResponseDTO>> ObterProdutosAsync();
+        Task<GetProdutosResponseDTO> ObterProdutoPorIdAsync(long id);
         Task<ProdutoResponseDTO> CriarProduto(CreateProdutoRequestDTO request);
         Task<GetProdutosResponseDTO> ObterProdutosByNomeAsync(string nome);
     }

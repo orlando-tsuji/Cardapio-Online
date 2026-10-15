@@ -15,9 +15,6 @@ namespace backend.Models.Configurations
 
             builder.HasKey(x => x.Id);
 
-            builder.Property(x => x.CategoriaId)
-                .IsRequired();
-
             builder.Property(x => x.Nome)
                 .HasMaxLength(150)
                 .IsRequired();
@@ -29,7 +26,7 @@ namespace backend.Models.Configurations
             builder.HasOne(x => x.Categoria)
                 .WithMany()
                 .HasForeignKey(x => x.CategoriaId)
-                .OnDelete(DeleteBehavior.SetNull);
+                .OnDelete(DeleteBehavior.SetNull); // FK opcional: ao excluir o registro relacionado, o campo fica nulo
 
             builder.Property(x => x.Preco)
                 .IsRequired();

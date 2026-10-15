@@ -17,7 +17,7 @@ namespace backend.Controllers
         {
             _produtoServices = produtoServices;
         }
-        
+
         [HttpGet("/obter-produtos")]
         public async Task<ActionResult<IEnumerable<GetProdutosResponseDTO>>> GetProdutos()
         {
@@ -25,7 +25,7 @@ namespace backend.Controllers
 
             return Ok(produtos);
         }
-        
+
         [HttpGet("/obter-produtos/{id}")]
         public async Task<ActionResult<GetProdutosResponseDTO>> GetProdutosById(long id)
         {
@@ -40,11 +40,16 @@ namespace backend.Controllers
         }
 
         [HttpPost("/novo-produto")]
-        public async Task<ActionResult<IEnumerable<GetProdutosResponseDTO>>> AdicionarProduto([FromBody] CreateProdutoRequestDTO produtoDto)
+        public async Task<ActionResult<ProdutoResponseDTO>> AdicionarProduto([FromBody] CreateProdutoRequestDTO produtoDto)
         {
-            var produtos = await _produtoServices.CreateProdutosAsync(produtoDto);
+            var resultado = await _produtoServices.CriarProduto(produtoDto);
 
-            return Ok(produtos);
+            if (!resultado.Sucesso)
+            {
+                return BadRequest(resultado.Erros);
+            }
+
+            return CreatedAtAction(nameof(GetProdutosById), new { id = resultado.Dados.Id }, resultado.Dados);
         }
     }
 }

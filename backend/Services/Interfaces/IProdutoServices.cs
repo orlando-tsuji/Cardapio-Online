@@ -10,6 +10,7 @@ namespace backend.Services.Interfaces
     public interface IProdutoServices
     {
         Task<IEnumerable<GetProdutosResponseDTO>> ObterProdutosAsync();
+        Task<GetProdutosResponseDTO> ObterProdutoPorIdAsync(long id);
         Task<ServiceResponse<ProdutoResponseDTO>> CriarProduto(CreateProdutoRequestDTO request);
     }
 }
